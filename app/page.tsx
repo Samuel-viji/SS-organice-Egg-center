@@ -52,7 +52,7 @@ export default function Home() {
             <p className="text-forest-700 max-w-2xl mx-auto">Sourced responsibly from the deep forests, ensuring you get nothing but the purest ingredients.</p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
             {products.map((product) => (
               <Card key={product.id} className="group border-forest-200 hover:border-earth-500 hover:shadow-xl transition-all">
                 <div className="aspect-video bg-forest-100 relative overflow-hidden">
